@@ -28,16 +28,12 @@ The suite executes a complete **End-to-End User Journey** (`tests/e2eCheckout.sp
 
 ---
 ## Architecture & Playwright Best Practices Implemented
-<<<<<<< HEAD
 This framework is fully built upon the official [Playwright Best Practices Documentation](https://playwright.dev/docs/best-practices) and resilient testing guidelines.
 1. Adherence to User-Visible Behavior Philosophy: Tests focus strictly on verifying the application from the end-user's perspective. Element interactions prioritize resilient, user-facing semantic configurations rather than fragile CSS classes or structural DOM hooks.
 2. Strict Adoption of Web-First Assertions: All UI verifications explicitly leverage asynchronous web-first assertions (e.g., await expect().toBeVisible()). This natively utilizes Playwright's auto-waiting and retry-ability mechanism, completely eliminating flaky manual boolean checks.
 3. Isolated State Hooking & Mocking Strategy: The project implements strict test isolation principles. It utilizes custom test fixtures and an optimized hybrid optimization layer to programmatically inject backend-generated cart states straight into browser session storage, avoiding messy end-to-end repetition.
 4. Multi-Browser & Type-Safe Architecture: Designed natively using TypeScript for structural safety and early compile-time error detection. The environment is configured with cross-browser execution projects (Chromium, Firefox, WebKit) out of the box.
 ---
-=======
->>>>>>> f3e7b8e47c6ce72d8b43db3e067cd80dc2821730
-
 This framework is fully built upon the official [Playwright Best Practices Documentation](https://playwright.dev/docs/best-practices) and resilient testing guidelines:
 
 * **Adherence to User-Visible Behavior Philosophy:** Tests focus strictly on verifying the application from the end-user's perspective. Element interactions prioritize resilient, user-facing semantic configurations rather than fragile CSS classes or structural DOM hooks.
@@ -75,21 +71,11 @@ BASE_URL=https://practicesoftwaretesting.com
 
 ## To Run Tests Locally
 Execute all tests across all configured browser projects concurrently:
-
-<<<<<<< HEAD
-```Bash
-=======
 ```bash
->>>>>>> f3e7b8e47c6ce72d8b43db3e067cd80dc2821730
 npx playwright test
 ```
 ## To run the single E2E scenario target file:
-
-<<<<<<< HEAD
-```Bash
-=======
 ```bash
->>>>>>> f3e7b8e47c6ce72d8b43db3e067cd80dc2821730
 npx playwright test tests/e2eCheckout.spec.ts
 ```
 ## Run tests in different browsers
