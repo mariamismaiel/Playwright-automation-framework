@@ -1,0 +1,14 @@
+{
+  "first_name": "QA",
+  "last_name": "Engineer",
+  "dob": "2000-12-19",
+  "phone": "111",
+  "password": "#Testing@#123#",
+  "address": {
+    "street": "Eileen Mountain",
+    "city": "Marisolshire",
+    "state": "Alabama",
+    "country": "EG",
+    "postal_code": "0"
+  }
+}
